@@ -32,7 +32,7 @@ df.iloc[0]
 print(df.head())
 print(df.tail())
 df.head(n=3) 
-df['sentence'].hist(bins=100)
+df['label'].hist(bins=100)
 
 
 for source in df['source'].unique():
